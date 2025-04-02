@@ -10,20 +10,17 @@
 class cube : public hittable
 {
 public:
-    // Construct a cube with a given center and side length.
     cube(const point3 &center, double side)
         : center(center), half_side(side / 2.0) {}
 
     bool hit(const ray &r, interval ray_t, hit_record &rec) const override
     {
-        // Compute the minimum and maximum corners of the cube.
         point3 min_point = center - vec3(half_side, half_side, half_side);
         point3 max_point = center + vec3(half_side, half_side, half_side);
 
         double tmin, tmax, tymin, tymax, tzmin, tzmax;
-        const double small = 1e-8; // tolerance for near-zero direction
+        const double small = 1e-8;
 
-        // X-axis slab.
         if (std::abs(r.direction().x()) < small)
         {
             if (r.origin().x() < min_point.x() || r.origin().x() > max_point.x())
@@ -39,7 +36,6 @@ public:
                 std::swap(tmin, tmax);
         }
 
-        // Y-axis slab.
         if (std::abs(r.direction().y()) < small)
         {
             if (r.origin().y() < min_point.y() || r.origin().y() > max_point.y())
@@ -60,7 +56,6 @@ public:
         tmin = std::max(tmin, tymin);
         tmax = std::min(tmax, tymax);
 
-        // Z-axis slab.
         if (std::abs(r.direction().z()) < small)
         {
             if (r.origin().z() < min_point.z() || r.origin().z() > max_point.z())
@@ -81,7 +76,6 @@ public:
         tmin = std::max(tmin, tzmin);
         tmax = std::min(tmax, tzmax);
 
-        // Determine the hit time.
         double t_hit = (tmin >= 0) ? tmin : tmax;
         if (!ray_t.surrounds(t_hit))
             return false;
@@ -89,7 +83,6 @@ public:
         rec.t = t_hit;
         rec.p = r.at(rec.t);
 
-        // Compute the face normal based on the direction from the cube's center.
         vec3 d = rec.p - center;
         double absX = std::abs(d.x());
         double absY = std::abs(d.y());
