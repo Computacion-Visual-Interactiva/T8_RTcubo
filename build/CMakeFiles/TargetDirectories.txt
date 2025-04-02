@@ -1,0 +1,3 @@
+C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/CMakeFiles/T8_RTCUBO.dir
+C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/CMakeFiles/ZERO_CHECK.dir

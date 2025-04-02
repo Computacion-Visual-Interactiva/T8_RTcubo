@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\ONEDRIVE\DOCUMENTOS\UNIVERSIDAD\SEMESTRE_8\COMPUTACION_VISUAL\TALLERES\T8_RTCUBO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo -BC:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build --check-stamp-file C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
