@@ -1,6 +1,6 @@
-^C:\USERS\PEDRO\ONEDRIVE\DOCUMENTOS\UNIVERSIDAD\SEMESTRE_8\COMPUTACION_VISUAL\TALLERES\T8_RTCUBO\BUILD\CMAKEFILES\A361F3D259A15181D2B8A00D70574706\GENERATE.STAMP.RULE
+^F:\UNIVERSIDAD\SEMESTRE_8\COMPUTACION_VISUAL\TALLERES\T8_RTCUBO\BUILD\CMAKEFILES\F5AA376D710CE8462E866306AF2D7397\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo -BC:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/T8_RTCUBO.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo -BF:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/T8_RTCUBO.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

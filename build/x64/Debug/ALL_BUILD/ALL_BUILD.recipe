@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\pedro\OneDrive\Documentos\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>F:\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\pedro\OneDrive\Documentos\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\Debug\T8_RTCUBO.exe</FullPath>
+      <FullPath>F:\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\Debug\T8_RTCUBO.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\pedro\OneDrive\Documentos\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>F:\Universidad\Semestre_8\Computacion_Visual\Talleres\T8_RTcubo\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

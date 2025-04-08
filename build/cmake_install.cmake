@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo
+# Install script for directory: F:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,7 +35,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/install_local_manifest.txt"
+  file(WRITE "F:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +51,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/pedro/OneDrive/Documentos/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/Universidad/Semestre_8/Computacion_Visual/Talleres/T8_RTcubo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
